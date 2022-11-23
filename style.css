@@ -1,0 +1,54 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 50px;
+    padding-left: 5%;
+    font-size: 60px;
+}
+.Orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+    margin: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    text-align: justify;
+
+}
+.half-width img{
+    width: 80%;
+}
+.Profile-Button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, salmon);
+    padding: 10px 30px;
+    border-radius: 5%;
+    color: white;
+    font-weight: 700;
+}
+.Career{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+}
+#Youth-career{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+#Senior-career{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
